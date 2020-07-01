@@ -1,0 +1,16 @@
+<html>
+  <head>
+    <title>Face expression recognition</title>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+      <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+  </head>
+  <body>
+    <h1>Face expression recognition</h1>
+    <img id="bg" width=1200px height=900px src="{{ url_for('video_feed') }}">
+  </body>
+  <footer>
+    <div id="copyright">
+      © Site by Bryan Tan
+    </div>
+  </footer>
+</html>
